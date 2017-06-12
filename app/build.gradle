@@ -34,7 +34,7 @@ dependencies {
     //kotlin的依赖包
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
-    //
+    //anko组件包
     compile 'org.jetbrains.anko:anko-sdk25:0.10.0-beta-1'
     compile 'org.jetbrains.anko:anko-appcompat-v7:0.10.0-beta-1'
 }
