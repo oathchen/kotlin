@@ -1,32 +1,22 @@
 package com.example.oathchen.testkotlin.ui
 
-import android.app.ActionBar
-import android.graphics.Color
-import android.print.PrintAttributes
-import android.support.v7.widget.LinearLayoutCompat
+import android.content.Context
 import android.text.InputType
 import android.view.Gravity
 import android.view.View
-import android.view.ViewGroup
 import android.widget.EditText
-import android.widget.TextView
-import com.example.oathchen.testkotlin.MainActivity
 import com.example.oathchen.testkotlin.R
-import kotlinx.android.synthetic.main.activity_main.view.*
-import org.intellij.lang.annotations.JdkConstants
+import com.example.oathchen.testkotlin.ui.base.BaseUI
 import org.jetbrains.anko.*
-import org.jetbrains.anko.custom.style
 
 /**
  * Created by oathchen on 2017/5/23.
  */
 
-class LoginUI : AnkoComponent<MainActivity>{
+class LoginUI : BaseUI(){
     lateinit var et_password:EditText;
     lateinit var et_account:EditText;
-    override fun createView(ui: AnkoContext<MainActivity>):View{
-
-
+    override fun createView(ui: AnkoContext<Context>):View{
         return with(ui) {
             verticalLayout {
                 backgroundColor = context.resources.getColor(R.color.white)
