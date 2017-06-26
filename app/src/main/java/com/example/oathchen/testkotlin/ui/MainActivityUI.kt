@@ -10,6 +10,8 @@ import com.example.oathchen.testkotlin.ui.base.BaseActivity
 import com.example.oathchen.testkotlin.ui.base.BaseUI
 import com.example.oathchen.testkotlin.ui.study.TagViewUI
 import com.example.oathchen.testkotlin.ui.study.basegrammar.BaseGrammar
+import com.example.oathchen.testkotlin.ui.study.basetype.BaseTypeUI
+import com.example.oathchen.testkotlin.ui.study.coderule.CodeRuleUI
 import com.example.oathchen.testkotlin.ui.study.habits.HabitsUI
 import org.jetbrains.anko.*
 
@@ -29,6 +31,8 @@ class MainActivityUI: BaseUI() {
             val items= listOf<Lession>(
                     Lession("基础语法", BaseGrammar()),
                     Lession("习惯用法",HabitsUI()),
+                    Lession("编码规范",CodeRuleUI()),
+                    Lession("基本类型", BaseTypeUI()),
                     Lession("测试登陆页面", LoginUI()),
                     Lession("自定义控件", TagViewUI())
             )
