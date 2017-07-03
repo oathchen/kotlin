@@ -5,6 +5,8 @@
     <color name="colorAccent">#FF4081</color>
     <color name="white">#FFFFFF</color>
     <color name="blue">#00a6e2</color>
+    <color name="tans_blue">#a005a6e2</color>
+
     <color name="forget">#888</color>
     <color name="regist">#ff7701</color>
     <color name="trans">#00000000</color>
